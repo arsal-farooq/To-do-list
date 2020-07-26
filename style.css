@@ -1,0 +1,112 @@
+#one{
+   /* border: 2px solid black; */
+   text-align: center;
+   margin:  50px auto;
+   height: 500px;
+
+
+   
+}
+body{
+    background-image: url(https://media.istockphoto.com/photos/dark-blue-background-picture-id962737798?k=6&m=962737798&s=612x612&w=0&h=VlQamnGFUXt0gFx8udLDG3_it004SKZVKe-HYzEzTe8=);
+}
+ #two{
+    
+    margin-left: 10px;
+    
+    
+    
+}
+.three{
+    margin-left: 10px;
+    height: 60px;
+    margin-top: 10px;
+} 
+
+.four{
+    height: 60px;
+    width: 400px;
+    border-radius: 15px 15px 15px 15px;
+    margin-top: 10px;
+    outline: none;
+
+} 
+
+#seven ul {
+   list-style-type: decimal-leading-zero;
+}
+
+.btn{
+    margin-left: 9px;
+    margin-top: 9px;
+}
+
+.btn1{
+    height: 40px;
+   
+}
+
+
+
+
+.full{
+    height: 60px;
+    background-color: darkred;
+    /* border: 2px solid black; */
+    color: white;
+    display: inline-flex;
+    width: 1349px;
+
+    
+}
+.full1{
+    background-color: orange;   
+     width: 40px;  
+     height: 40px;
+     margin-top: 5px;
+}
+
+.full3{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+#seven{
+    /* border: 2px solid black; */
+    width: 700px;
+    margin-top: 40px;
+    margin-left: 200px;
+    color: wheat;
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+
+}
+
+@media (max-width: 768px){
+    #seven {
+        margin-left: 8px;
+        width: 400px;
+
+    }
+    #seven ul {
+        list-style-type: decimal-leading-zero;
+     }
+    .four{
+        width: 300px;
+    }
+}
+@media (max-width: 450px ){
+    #seven {
+        margin-left: 0px;
+        width: 300px;
+        font-size: 12px;
+
+    }
+    #seven ul {
+        list-style-type: decimal-leading-zero;
+     }
+
+}
+
+ 
